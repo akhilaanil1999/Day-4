@@ -1,0 +1,21 @@
+ 
+ <div class="container text-center">
+    <div class="row">
+     <div class="col" *ngFor="let item of distdatabase">
+       <div class="card" style="width: 18rem;">
+         <img src="{{item.img}}" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">{{item.name}}</h5>
+           <a (click)="gotodistpage(item.name)" class="btn btn-primary">see more</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+
+
+
+
+  
+
